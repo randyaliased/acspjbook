@@ -6,6 +6,7 @@ parts:
     chapters:
     - file: some_content/overview.md
       sections:
+      - file: some_content/JNB7_01_Sinusoidal_Model.ipynb
       - file: some_content/text_and_code.ipynb
     - file: exercises.md
       sections:
