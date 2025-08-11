@@ -6,8 +6,8 @@ parts:
     chapters:
     - file: fundamental/overview.md
       sections:
-      - file: fundamental/JNB7_01_Sinusoidal_Model.ipynb
-      - file: fundamental/text_and_code.ipynb
+      - file: fundamental/01_Sinusoidal_Model.ipynb
+      - file: fundamental/02_Phasors.ipynb
     - file: dasp/overview.md
       sections:
       - file: dasp/text_and_code.ipynb
