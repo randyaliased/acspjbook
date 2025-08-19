@@ -7,11 +7,12 @@ parts:
     - file: fundamental/overview.md
       sections:
       - file: fundamental/01_Sinusoidal_Model.ipynb
-      - file: fundamental/02_Phasors.ipynb
-      - file: fundamental/03_Fourier_Series.ipynb
-      - file: fundamental/04_Sampling.ipynb
-      - file: fundamental/05_DFT.ipynb
-      - file: fundamental/06_Time_Freq_Analysis.ipynb
+      - file: fundamental/02_Complex_Numbers.ipynb
+      - file: fundamental/03_Phasors.ipynb
+      - file: fundamental/04_Fourier_Series.ipynb
+      - file: fundamental/05_Sampling.ipynb
+      - file: fundamental/06_DFT.ipynb
+      - file: fundamental/07_Time_Freq_Analysis.ipynb
     - file: dasp/overview.md
       sections:
       - file: dasp/text_and_code.ipynb
