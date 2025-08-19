@@ -7,7 +7,7 @@ parts:
     - file: fundamental/overview.md
       sections:
       - file: fundamental/01_Sinusoidal_Model.ipynb
-      - file: fundamental/02_Complex_Numbers.ipynb
+      - file: fundamental/02_Complex_numbers.ipynb
       - file: fundamental/03_Phasors.ipynb
       - file: fundamental/04_Fourier_Series.ipynb
       - file: fundamental/05_Sampling.ipynb
