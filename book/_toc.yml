@@ -10,9 +10,10 @@ parts:
       - file: fundamental/02_Complex_numbers.ipynb
       - file: fundamental/03_Phasors.ipynb
       - file: fundamental/04_Fourier_Series.ipynb
-      - file: fundamental/05_Sampling.ipynb
-      - file: fundamental/06_DFT.ipynb
-      - file: fundamental/07_Time_Freq_Analysis.ipynb
+      - file: fundamental/05_Fourier_Transform.ipynb
+      - file: fundamental/06_Sampling.ipynb
+      - file: fundamental/07_DFT.ipynb
+      - file: fundamental/08_Time_Freq_Analysis.ipynb
     - file: dasp/overview.md
       sections:
       - file: dasp/text_and_code.ipynb
