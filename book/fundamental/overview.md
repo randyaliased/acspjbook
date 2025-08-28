@@ -1,3 +1,6 @@
 # Fundamental Audio Analysis
 
 The first section of this book takes us through some very core concepts in the mathematical description of sound and its subsequent analysis. We'll start from what I like to call the "building blocks of sound", representing audio using a sinusoid model and a complex sinusoid. We'll then get into Fourier analysis. Up until this point we would have treated audio as continuous-time signals, but we know that in practice, for any type of audio processing, audio signals are discretized through the process of sampling and quantization. We'll not discuss quantization (perhaps that is to be added at a later date), but we'll discuss sampling and issues of aliasing. With digital audio signals, we can then move on to fundamental audio analysis using the discrete Fourier transform and time-frequency analysis. 
+
+<script data-goatcounter="https://MYCODE.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
