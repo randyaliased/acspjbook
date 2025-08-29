@@ -11,7 +11,6 @@ only_build_toc_files: true                           # Replace this with false i
 html:
   favicon : "figures/bookicon.ico"                   # Replace this with your own favicon
   baseurl :  "https://<user/org>.io/<repo>"          # Replace this with your own URL
-  code_folding: true       # enables folding UI for code cells
 
 sphinx:                                              # Options passed on to the underlying sphinx-parser
   config:
