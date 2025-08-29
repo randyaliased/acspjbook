@@ -2,4 +2,4 @@
 
 In progress... I plan to put several of [these](https://github.com/randyaliased/acs-sp-demos) up here. 
 
-test cite - [@Oppenheim2009]
+test cite - {cite:t}`Oppenheim_2009`
