@@ -13,7 +13,8 @@ parts:
       - file: fundamental/05_Fourier_Transform.ipynb
       - file: fundamental/06_Sampling.ipynb
       - file: fundamental/07_DFT.ipynb
-      - file: fundamental/08_Time_Freq_Analysis.ipynb
+      - file: fundamental/08_Windows.ipynb
+      - file: fundamental/09_Time_Freq_Analysis.ipynb
     - file: dasp/overview.md
       sections:
       - file: dasp/02_Autocorrelation.ipynb
