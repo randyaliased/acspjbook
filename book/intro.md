@@ -1,5 +1,5 @@
 (intro)=
-# Welcome to this space
+# An interactive playground for audio analysis, processing, and synthesis
 
 _This is the first page the student will see when opening the url._
 
