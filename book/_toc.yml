@@ -17,6 +17,6 @@ parts:
       - file: fundamental/09_Time_Freq_Analysis.ipynb
     - file: dasp/overview.md
       sections:
-      - file: dasp/02_Autocorrelation.ipynb
+      - file: dasp/text_and_code.ipynb
     - file: references.md
     - file: credits.md
