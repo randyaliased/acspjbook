@@ -1,17 +1,9 @@
 (credits)=
-### Citation and 
+### About this book 
 
-You can refer to this book as:
+This website is written in markdown and jupyter notebooks files, which are converted to html using tools from [TeachBooks](https://teachbooks.io/). You can refer to this book as:
 
-
->
-Ali, R. (2025) Tangible audio analysis, processing, and synthesis with Python. Available at: [https://randyaliased.github.io/acspjbook/main/intro.html](https://randyaliased.github.io/acspjbook/main/intro.html). Source files at [https://github.com/randyaliased/acspjbook](https://github.com/randyaliased/acspjbook) (Accessed: DD/MM/YY).
-
-<!-- You can refer to individual chapters or pages within this book as:
-
-
-
-> `<Title of Chapter or Page>`. In `<editors>` (`<year>`) _`<title>`_. `<url to specific page on book website>`. Source files at `<link to specific commit / file in github repo`. CC BY 4.0. -->
+> Ali, R. (2025) Tangible audio analysis, processing, and synthesis with Python. Available at: [https://randyaliased.github.io/acspjbook/main/intro.html](https://randyaliased.github.io/acspjbook/main/intro.html). Source files at [https://github.com/randyaliased/acspjbook](https://github.com/randyaliased/acspjbook) (Accessed: DD/MM/YY).
 
 The content of this book is likely to change overtime. Therefore, it's recommended to use the source code directly with the citation above that refers to the GitHub repository and lists the date and name of the file. Although content will be added over time, chapter titles and URL's in this book are expected to remain relatively static. 
 
@@ -19,10 +11,17 @@ This book is [CC BY 4.0 licensed](https://creativecommons.org/licenses/by/4.0/) 
 
 ### Author contact
 
+[Randall Ali (Randy)](https://www.surrey.ac.uk/people/randall-ali) is a Lecturer at the [Institute of Sound Recording (IoSR)](https://iosr.surrey.ac.uk/index.php) of [Music and Media](https://www.surrey.ac.uk/music-and-media) in the University of Surrey, UK. Please get in touch with any questions, comments, or most importantly, the spotting of errors! - r.ali@surrey.ac.uk 
+
+<!-- ### Acknowledgements -->
 
 
-### Acknowledgements
 
+<!-- You can refer to individual chapters or pages within this book as:
+
+
+
+> `<Title of Chapter or Page>`. In `<editors>` (`<year>`) _`<title>`_. `<url to specific page on book website>`. Source files at `<link to specific commit / file in github repo`. CC BY 4.0. -->
 
 <!-- ## How the book is made
 
