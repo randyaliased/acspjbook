@@ -1,5 +1,5 @@
 (credits)=
-### About this book 
+#### About this book 
 
 This website is written in markdown and jupyter notebooks files, which are converted to html using tools from [TeachBooks](https://teachbooks.io/). You can refer to this book as:
 
@@ -9,11 +9,9 @@ The content of this book is likely to change overtime. Therefore, it's recommend
 
 This book is [CC BY 4.0 licensed](https://creativecommons.org/licenses/by/4.0/) allowing you to share and adapt the material, as long as the source is named. External resources that are reused in this book are listed below.
 
-### Author contact
+#### Author contact
 
-[Randall Ali (Randy)](https://www.surrey.ac.uk/people/randall-ali) is a Lecturer at the [Institute of Sound Recording (IoSR)](https://iosr.surrey.ac.uk/index.php) of [Music and Media](https://www.surrey.ac.uk/music-and-media) in the University of Surrey, UK. Please get in touch with any questions, comments, or most importantly, the spotting of errors! - r.ali@surrey.ac.uk 
-
-<!-- ### Acknowledgements -->
+[Randall Ali (Randy)](https://www.surrey.ac.uk/people/randall-ali) is a Lecturer at the [Institute of Sound Recording (IoSR)](https://iosr.surrey.ac.uk/index.php) of [Music and Media](https://www.surrey.ac.uk/music-and-media) in the University of Surrey, UK. Please get in touch with any questions, comments, or most importantly, the spotting of errors! - r.ali@surrey.ac.uk
 
 
 
