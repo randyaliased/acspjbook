@@ -17,6 +17,6 @@ parts:
       - file: fundamental/09_Time_Freq_Analysis.ipynb
     - file: dasp/overview.md
       sections:
-      - file: dasp/01_Impulse_Response_and_Convolution.ipynb
+      - file: dasp/01_IR_Conv.ipynb
     - file: references.md
     - file: credits.md
