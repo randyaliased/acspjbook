@@ -18,7 +18,7 @@ parts:
     - file: dasp/overview.md
       sections:
       - file: dasp/01_IR_Conv.ipynb
-      - file: dasp/02_FIR_Design.ipynb
+      - file: dasp/02_FIR_design.ipynb
       - file: dasp/03_Z_domain.ipynb
     - file: references.md
     - file: credits.md
