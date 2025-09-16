@@ -1,74 +1,46 @@
-# Your first TeachBook using the GitHub template
+(intro)=
+### An interactive playground for audio analysis, processing, and synthesis
 
-The template allows you to start your own TeachBook and hosting that TeachBook online without knowledge on Git, the Jupyter book package, python or anaconda. It doesn't elaborate on the collaborative functionalities of Git or how to edit the book. Please look at our manual (https://teachbooks.io/manual) to find more about that!
+<!-- _This is the first page the student will see when opening the url._ -->
 
-## How to get started
+Welcome to this book on audio analysis, processing, and synthesis. Over the past few years of teaching audio digital signal processing (audio DSP) concepts, I've found that students being exposed to the material for the first time have a difficult time developing intuition for what may sometimes feel like very abstract concepts. Particularly, those with a weaker mathematical background have a hard time connecting with the equations and static depictions of formulae. I have been [experimenting](https://pubs.aip.org/asa/jasa/article/153/3_supplement/A214/2885917/Interactive-demonstrations-in-acoustic-signal) in the classroom more and more with [Jupyter notebooks](https://github.com/randyaliased/acs-sp-demos), where I make use of animations, interactive plots and demonstrations, and real-time manipulation of sounds to create a more accessible and "tangible" connection to audio DSP. The main idea is that with short snippets of code, you get to take control of an equation or concept by dissecting it such that you can modify signals/parameters to produce immediate sonic and visual outputs. In my opinion, this transforms our learning of audio DSP into a creative and enjoyable process. For instance, one thing I personally like to do is modify things until I "break" something, i.e., testing the limits of equations and concepts and understanding under what conditions reasonable outputs are produced. 
 
-How to use the template is demonstrated in the figure below, all steps are elaborated on in the following step-by-step tutorial.
+One challenge I've had with the Jupyter notebooks though is that they have not always been straightforward to share, especially for those who are not familiar with Python or the concept of [virtual environments](https://docs.python.org/3/library/venv.html). On top of that, things would sometimes only work on specific versions of Python and admittedly I've not been very great with keeping track of this. This is where the brilliance of [Teachbooks](https://teachbooks.io) comes in! With teachbooks, we can now make a Jupyter book (a collection of Jupyter notebooks) where we can directly run and modify Python snippets online without the need to worry about specific Python versions. There are a few tricks to get this all to work, particularly for audio, but that's my headache! 
 
-![Demonstration for a public repository](https://github.com/TeachBooks/template_figures/blob/main/teachbooks-template.gif?raw=true)
-Video available [here](https://youtu.be/nN3Oi_MVvF0)
+This approach to learning audio DSP is what I'm calling "Tangible audio analysis, processing, and synthesis", where we more physically interact with equations to create deeper connections, understanding, and intuition of mathematical concepts in this field. This book is, however, not meant to be comprehensive in terms of going into all of the fine details of audio DSP (for this, we have classic texts such as {cite:p}`Oppenheim2009` {cite:p}`zolzer2011dafx`), but rather to be treated as a complementary companion to audio DSP studies. I'm certain there are many more topics to be included, but I've started with a focus on certain concepts where I thought this approach to learning could be beneficial.
+
+In case you have any thoughts, ideas, or spot some errors (most likely), feel free to write me - r.ali@surrey.ac.uk
 
 
-1. To get started making your TeachBook with our functionalities, use the [template TeachBook](https://github.com/TeachBooks/main/template) as template:
+#### Organization of this book
 
-![Use template](https://github.com/TeachBooks/template_figures/blob/main/use_template.png?raw=true)
+This book is still in its early stages of organization and I'll update things over time. So far my idea has been to organize it into 3 sections (but this may probably change):
 
-2. Fill in a repository name, this name will be used in the future url of your book:
+1. Fundamental Audio Analysis - the basic concepts/techniques we need to do anything in audio DSP (a draft of this is complete). This part of the book has been largely based on the material I teach for one of my modules at the University of Surrey, UK on [Audio Signal Analysis](https://catalogue.surrey.ac.uk/2025-6/module/TON1023)
+2. Audio processing - Concepts relating to the manipulation of audio. Planning to put several of the notebooks from (https://github.com/randyaliased/acs-sp-demos), so you can have a look at those already if you are curious.
+3. Audio synthesis - There are a few notebooks I have that do some interactive synthesis for musical instruments and other objects, but they need some work. I think they would tie together nicely some of the concepts in the previous two sections.
 
-![Create new repository](https://github.com/TeachBooks/template_figures/blob/main/create_new_repository.png?raw=true)
 
-3. You can choose for `Private` only if you've GitHub Pro, GitHub Team, GitHub Enterprise Cloud, or GitHub Enterprise Server. Otherwise, you won't be able to publish your TeachBook online. Furthermore, it prevents people from contributing to your book, making your book essentially 'closed' instead of 'open'. Note that the built book website is always public.
+#### How to use this book
 
-4. You need to activate GitHub pages so that your website is published to the internet. As long as you don't do this your TeachBook is not published online. Actually, now that you've taken this template our workflow tries to publish it to GitHub pages, which you didn't have the chance to activate yet. That's why you probably received an email with 'call-deploy-book: Some jobs were not successful' and you see the failed job under `Initial commit`. You can activate GitHub pages by setting the source for GitHub pages to GitHub Actions under `Settings` - `Pages` - `Build and deployment` - `Source` - `GitHub Actions`:
+Each notebook or chapter consists of two sections (i) an area of text (written in Markdown) which will explain the mathematical concept, and (ii) a code snippet where you can modify and execute the code to see the result.
 
-![Activate GitHub Pages](https://github.com/TeachBooks/template_figures/blob/main/set_up_pages.png?raw=true)
+At the start of each notebook, here's what you need to do:
 
-5. Make an edit to the TeachBook by editing and committing changes to one of the files in the `book/` subdirectory (available under `Code`).  Now checkout the progress of the publishing workflow under `Actions` - `All workflows` -  `call-deploy-book` -`<the most recent workflow run>`. Remember, the first commit which is there has failed because GitHub Pages wasn't activated at the time of `Initial commit`, you could also re-run that job if you don't want to make an edit. You can do so by running the workflow from `Actions` - `All workflows` - `call-deploy-book` - `Initial commit` - `Re-run all jobs` - `Re-run jobs`:
+1. There is a rocket ship button in the top-right hand corner. Hovering your cursor over this brings up a button which says "Live Code". Click this so that all the background Python stuff gets loaded. You will also see that all of the code snippets in the notebook have 4 buttons - "run", "run all", "add cell", and "clear".  Click "run" to execute a cell. 
 
-![Action](https://github.com/TeachBooks/template_figures/blob/main/action_re-run.jpeg?raw=true)
+2. Execute the very first cell of the notebook as this includes all of the necessary packages (various libraries) to be imported in order for following code snippets to work. 
 
-6. When the workflow has finished, visit your build TeachBook at `https://<username or organiszation_name>.github.io/<repository_name>` (case sensitive). For our example it is [https://dummydocent.github.io/test_book_from_template/](https://dummydocent.github.io/test_book_from_template/) for the shown repository. These links are visible in the action's summary as well, as shown in the figure of step 4.
+3. Run the various code snippets in the notebook. The majority of these notebooks are interactive, in that a plot is generated where you can vary sliders and see/hear the output. This means that you do not even need to understand what all of the code is doing. Sometimes, I will highlight areas in the code where you can change the values of certain variables and you should then re-run the snippet to see the result. Although snippets of code may seem long at times, the majority of it is actually for rendering the plots.
 
-7. Want to get started directly? Your book contains a few exercises to get your started! Visit `https://<username or organiszation_name>.github.io/<repository_name>/exercises/exercises` (case sensitive) to get started with the first ones to get the basics of how to interact with your book on GitHub.
+4. If you want to add a cell and code up something of your own, click "add cell" and experiment! Note that once you leave a notebook though, any modifications you make get lost, so be sure to copy and paste them somewhere!
 
-![exercises](https://github.com/TeachBooks/template_figures/blob/main/exercises.png?raw=true)
+5. Have fun!
 
-Additional tip: 
-Set the repository website as your GitHub Pages website under `Code`- `About` - `Settings icon` - `Website` - `Use your GitHub Pages Website`
+For the more Python-oriented folks: You'll probably realize that some of the Python code is not that efficient and it can certianly use cleaning up. My immediate goal was to get the interactive plots working and then worry about efficiency. For interactive plots, I've made use of the [Jupyter Widgets](https://ipywidgets.readthedocs.io/en/latest/examples/Using%20Interact.html) and [animations with Matplotlib](https://matplotlib.org/stable/users/explain/animations/animations.html).
 
-![GitHub pages as website](https://github.com/TeachBooks/template_figures/blob/main/use_github_pages_website.png?raw=true)
+This should be all you need to get started! I've made the [first notebook](https://randyaliased.github.io/acspjbook/main/fundamental/01_Sinusoidal_Model.html#) purposefully short and simple to demonstrate the idea behind this book, but then go into more detail in the following books. Hope you enjoy the journey!
 
-## Features
-- A github repository structure for making a [Jupyter Book](https://github.com/executablebooks/jupyter-book) (`/book`)
-- An empty TeachBook containing an intro page on root, an example markdown page, an example jupyter notebook page, an example references page. and an example credits page. (`/book/_toc.yml`, `/book/_config.yml`, `/book/credits.md`, `/book/intro.md`, `/book/references.md`, `/book/some_content/overview.md`, `/book/some_content/text_and_code.ipynb`)
-- A file ready for adding references (`references.bib`, `/book/references.md`)
-- An example favicon (web browser icon) (`/book/figures/favicon.ico`, `book/_config.yml`.)
-- An example logo (`/book/figures/TUDelft_logo_rgb.png`, `/book/config.yml`)
-- The configuration files set ready to make your Jupyter Notebooks pages work with [live code using our sphinx-thebe extension](https://teachbooks.io/manual/features/live_code.html) and our recommended settings (`/book/config.yml`)
-- An example of setting up preprocessing your table of contents to hide certain draft chapters for eg. students (`_toc.yml`)
-- A file containing all the recommended software packages (`requirements.txt`)
-- A file containing the recommended license CC BY 4.0 (`LICENSE.md`)
-- Our [GitHub workflow for publishing your TeachBook to GitHub Pages](https://github.com/TeachBooks/deploy-book-workflow) (`.github/workflow/call-deploy-book.yml`)
-- A gitignore file containing standard python filetype to ignore (`.gitignore`)
-- A readme containing information how to use the template, which can adjusted after using the template (`README.md`)
 
-## Contribute
-This tool's repository is stored on [GitHub](https://github.com/TeachBooks/template). The `README.md` of the branch `manual_description` is also part of the [TeachBooks manual](https://teachbooks.io/manual/external/template/README.html) as a submodule. If you'd like to contribute, you can create a fork and open a pull request on the [GitHub repository](https://github.com/TeachBooks/template). To update the `README.md` shown in the TeachBooks manual, create a fork and open a merge request for the [GitHub repository of the manual](https://github.com/TeachBooks/manual). If you intent to clone the manual including its submodules, clone using: `git clone --recurse-submodulesgit@github.com:TeachBooks/manual.git`.
 
-## Template README
-> Remove all of the above after you've taken this template and followed the instructions. The following lines are a template for your own README
 
-# `<Book title>`
-
-`<description of book's content en target audience>`
-
-## Contributors
-- `<list authors>`
-
-## Reuse content
-Feel free to reuse this content or contribute to it. Please give appropriate credit, provide a link to the license, and indicate if changes were made ([CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/))
-
-The website (`<book_website_url>`) is created using the [TeachBooks Python package](https://github.com/TeachBooks/TeachBooks). To recreate it you have two options (more information in the [TeachBooks manual](https://teachbooks.io/manual/):
-- In the GitHub interface: fork this repository, enable Github Pages from the source GitHub actions (Settings - Code and automation - Pages - Build and deployment - Source - GitHub Actions), enable workflows (Actions - I understand my workflows, go ahead and enable them) and run the call-deploy-book workflow (Actions - call-deploy-book - Run workflow - Run workflow). The website is released on the URL as shown on the workflow summary when the workflow has finished (Actions - call-deploy-book - call-deploy-book - Summary).
-- On your own computer: clone this repository, install the required packages (`pip install -r requirements.txt`) and build the book (`teachbooks build book`). The website is stored locally in `book/_build/index.html`.

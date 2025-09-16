@@ -5,7 +5,7 @@ This website is written in markdown and jupyter notebooks files, which are conve
 
 > Ali, R. (2025) Tangible audio analysis, processing, and synthesis with Python. Available at: [https://randyaliased.github.io/acspjbook/main/intro.html](https://randyaliased.github.io/acspjbook/main/intro.html). Source files at [https://github.com/randyaliased/acspjbook](https://github.com/randyaliased/acspjbook) (Accessed: DD/MM/YY).
 
-The content of this book is likely to change overtime. Therefore, it's recommended to use the source code directly with the citation above that refers to the GitHub repository and lists the date and name of the file. Although content will be added over time, chapter titles and URL's in this book are expected to remain relatively static. 
+I've also made a shortURL for easy sharing: [cutt.ly/tangibleaudio](cutt.ly/tangibleaudio). The content of this book is likely to change overtime. Therefore, it's recommended to use the source code directly with the citation above that refers to the GitHub repository and lists the date and name of the file. Although content will be added over time, chapter titles and URL's in this book are expected to remain relatively static. 
 
 This book is [CC BY 4.0 licensed](https://creativecommons.org/licenses/by/4.0/) allowing you to share and adapt the material, as long as the source is named. External resources that are reused in this book are listed below.
 
