@@ -19,7 +19,7 @@ parts:
       sections:
       - file: dasp/01_IR_Conv.ipynb
       - file: dasp/02_FIR_design.ipynb
-      - file: dasp/03_Z_domain.ipynb
+      - file: dasp/03_FilteringSignals.ipynb
     - file: experimental_notebook.ipynb
     - file: references.md
     - file: credits.md
