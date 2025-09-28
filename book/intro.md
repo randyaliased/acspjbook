@@ -23,7 +23,7 @@ This book is still in its early stages of organization and I'll update things ov
 
 #### How to use this book
 
-Each notebook or chapter consists of two sections (i) an area of text (written in Markdown) which will explain the mathematical concept, and (ii) a code snippet where you can modify and execute the code to see the result.
+It's strongly recommended to run this website on a laptop/desktop as opposed to a phone. Each notebook or chapter consists of two sections (i) an area of text (written in Markdown) which will explain the mathematical concept, and (ii) a code snippet where you can modify and execute the code to see the result.
 
 At the start of each notebook, here's what you need to do:
 
@@ -33,9 +33,11 @@ At the start of each notebook, here's what you need to do:
 
 3. Run the various code snippets in the notebook. The majority of these notebooks are interactive, in that a plot is generated where you can vary sliders and see/hear the output. This means that you do not even need to understand what all of the code is doing. Sometimes, I will highlight areas in the code where you can change the values of certain variables and you should then re-run the snippet to see the result. Although snippets of code may seem long at times, the majority of it is actually for rendering the plots.
 
-4. If you want to add a cell and code up something of your own, click "add cell" and experiment! Note that once you leave a notebook though, any modifications you make get lost, so be sure to copy and paste them somewhere!
+4. Depending on the device you are running, you may want to resize the plots. You can always do this by looking for the line in the code which sets up the plot: fig, axes = plt.subplots(figsize=(6,3)). The numbers (6,3) in this example refer to the width and height of the figure respectively. Feel free to change these numbers as needed.
 
-5. Have fun!
+5. If you want to add a cell and code up something of your own, click "add cell" and experiment! Note that once you leave a notebook though, any modifications you make get lost, so be sure to copy and paste them somewhere!
+
+6. Have fun!
 
 For the more Python-oriented folks: You'll probably realize that some of the Python code is not that efficient and it can certianly use cleaning up. My immediate goal was to get the interactive plots working and then worry about efficiency. For interactive plots, I've made use of the [Jupyter Widgets](https://ipywidgets.readthedocs.io/en/latest/examples/Using%20Interact.html) and [animations with Matplotlib](https://matplotlib.org/stable/users/explain/animations/animations.html).
 
