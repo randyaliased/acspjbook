@@ -29,7 +29,7 @@ At the start of each notebook, here's what you need to do:
 
 1. There is a rocket ship button in the top-right hand corner. Hovering your cursor over this brings up a button which says "Live Code". Click this so that all the background Python stuff gets loaded. You will also see that all of the code snippets in the notebook have 4 buttons - "run", "run all", "add cell", and "clear".  Click "run" to execute a cell. 
 
-2. Execute the very first cell of the notebook as this includes all of the necessary packages (various libraries) to be imported in order for following code snippets to work. 
+2. The very first cell of all notebooks includes all of the necessary packages (various libraries) to be imported in order for the various code snippets to work. This cell is purposefully hidden/folded and is automatically run once you hit the "Live Code" (rocket ship button) from step 1. You can still have a look at this cell to see what packages have been imported and you can add more if you like.
 
 3. Run the various code snippets in the notebook. The majority of these notebooks are interactive, in that a plot is generated where you can vary sliders and see/hear the output. This means that you do not even need to understand what all of the code is doing. Sometimes, I will highlight areas in the code where you can change the values of certain variables and you should then re-run the snippet to see the result. Although snippets of code may seem long at times, the majority of it is actually for rendering the plots.
 
