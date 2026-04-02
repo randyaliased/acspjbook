@@ -29,6 +29,6 @@ parts:
           - file: synthesis/strings_wave_prop.ipynb
           - file: synthesis/strings_dwg.ipynb
     - file: experimental_notebook.ipynb
-    - file: Tangible_Math.ipynb
+    - file: Tangible_Audio.ipynb
     - file: references.md
     - file: credits.md
